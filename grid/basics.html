@@ -13,7 +13,7 @@
             font-size: 32px;
             font-family: Arial, Helvetica, sans-serif;
             display: grid;
-            grid-template-columns: 1fr 2fr auto;
+            grid-template-columns: repeat(4, 1fr);
             /* grid-template-rows: 150px 150px; */
              /* justify-items: center; */
             /* align-items: start;
@@ -23,11 +23,11 @@
         .e1{
             background-color: antiquewhite;
             /* align-self: center; */
-            grid-column: 1 / -1;
+            /* grid-column: 1 / -1; */
         }
         .e2{
             background-color: rgb(96, 213, 96);
-            grid-row: 2 / span 2;
+            grid-row: 2 / 3;
         }
         .e3{
             background-color: rgb(232, 224, 71);

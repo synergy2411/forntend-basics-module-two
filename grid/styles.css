@@ -27,7 +27,6 @@ body{
 }
 .number {
     font-weight: 700;
-    color: lightgrey;
 }
 .number, .heading {
     font-size: 24px;
@@ -36,6 +35,21 @@ body{
 
 .open .number, .open .heading {
     color: #9EBC9F;
+}
+
+.open .icon{
+    animation-name: rotate-icon;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate-icon{
+    from {
+        transform : rotate(0deg)
+    }
+    to {
+        transform : rotate(180deg)
+    }
 }
 .box {
     grid-column: 2 / 3;

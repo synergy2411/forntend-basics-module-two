@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        html{
+            font-size : 62.5%;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            max-width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding : 1rem;
+            font-size: 3.2rem;
+        }
+        @media screen and (max-width : 1200px){
+            body{
+                background-color: red;
+            }
+        }
+        @media screen and (max-width : 1080px){
+              body{
+                  background-color: green;
+              }
+          }
+          
+        @media screen and (max-width : 760px){
+            body{
+                background-color: blue;
+            }
+        }
+        @media screen and (max-width : 490px){
+            body{
+                background-color: yellow;
+            }
+            html{
+                font-size: 25%;
+            }
+            .container{
+                grid-template-columns: 1fr;
+                justify-items: center;
+            }
+        }
+
+    </style>
+    <title>Responsive Layout</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sit
+        dolorum exercitationem, incidunt obcaecati minima. Alias modi et ratione
+        delectus omnis at quam. Vitae vero debitis veniam voluptas rem quasi.
+      </p>
+      <img src="https://picsum.photos/300" alt="">
+    </div>
+  </body>
+</html>

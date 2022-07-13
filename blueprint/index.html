@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN -> Content Delivery Network -->
+    <link
+      href="https://unpkg.com/blueprint-css@3.1.3/dist/blueprint.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Local Version of Blueprint -->
+    <!-- <link rel="stylesheet" href="blueprint.min.css"> -->
+    <style>
+      .box {
+        border: 1px black solid;
+      }
+    </style>
+    <title>Blueprint</title>
+  </head>
+  <body>
+    <div class="container" bp="grid 2@lg 3@md 4@sm 6@xs vertical-start">
+      <div class="box">
+        box - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laudantium dicta beatae commodi ratione voluptate ea veritatis,
+        architecto laboriosam quidem cum eum, maxime, iusto minus odio libero
+        impedit tenetur dolorum corrupti!F
+      </div>
+      <div class="box" bp="offset-4@md">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+    </div>
+  </body>
+</html>

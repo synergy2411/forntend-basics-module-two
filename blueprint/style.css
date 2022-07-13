@@ -1,0 +1,101 @@
+/* PRIMARY COLOR - #3a606e */
+/* GREY COLOR - #ebeff1 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 700px;
+    margin: 100px auto;
+    font-family: 'Karla', sans-serif;
+    color: #3a606e;
+}
+.container{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+}
+.header-container{
+    background-color: #3a606e;
+    padding: 12px;
+    text-transform: uppercase;
+    color: #ebeff1;
+}
+.heading{
+    text-transform: uppercase;
+    color :#ebeff1;
+}
+
+img{
+    max-width: 100%;
+    margin: 0;
+    max-height: 100%;
+}
+
+.btn-cta{
+    background-color: black;
+    color: #ebeff1;
+    padding: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+}
+
+.product-price{
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.product-shipping{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: 600;
+    color: #444;
+}
+
+.product-details-text{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #3a606e;
+}
+
+.product-details-list{
+    padding-left: 20px;
+    padding-right: 12px;
+    line-height: 1.5;
+}
+
+.dots{
+    width: 12px;
+    height: 12px;
+    /* padding-left: 12px; */
+    margin-bottom: 20px;
+}
+.dot--1{
+    background-color: black;
+}
+.dot--2{
+    background-color: rgb(249, 11, 11);
+}
+.dot--3{
+    background-color: rgb(206, 240, 11);
+}
+.dot--4{
+    background-color: rgb(13, 235, 46);
+}
+.dot--5{
+    background-color: rgb(69, 16, 244);
+}
+.dot--6{
+    background-color: rgb(231, 155, 24);
+}
+
+.more-info-link{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+}

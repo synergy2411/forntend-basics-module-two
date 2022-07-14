@@ -6,24 +6,29 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 62.5%;
+}
 body {
     max-width: 700px;
-    margin: 100px auto;
+    margin: 10rem auto;
     font-family: 'Karla', sans-serif;
     color: #3a606e;
 }
 .container{
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2rem 0.2rem rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 .header-container{
     background-color: #3a606e;
-    padding: 12px;
+    padding: 1.2rem;
     text-transform: uppercase;
     color: #ebeff1;
 }
 .heading{
     text-transform: uppercase;
     color :#ebeff1;
+    font-size: 2.8rem;
 }
 
 img{
@@ -35,44 +40,44 @@ img{
 .btn-cta{
     background-color: black;
     color: #ebeff1;
-    padding: 12px;
+    padding: 1.2rem;
     text-transform: uppercase;
     text-align: center;
     align-self: center;
 }
 
 .product-price{
-    font-size: 32px;
-    margin-top: 20px;
+    font-size: 3.2rem;
+    margin-top: 1rem;
 }
 
 .product-shipping{
     text-transform: uppercase;
-    font-size: 12px;
-    margin-top: 25px;
-    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 60rem;
     color: #444;
 }
 
 .product-details-text{
-    padding-top: 12px;
-    font-size: 20px;
+    padding-top: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color: #3a606e;
 }
 
 .product-details-list{
-    padding-left: 20px;
-    padding-right: 12px;
+    padding-left: 2rem;
+    padding-right: 1.2rem;
     line-height: 1.5;
 }
 
 .dots{
-    width: 12px;
-    height: 12px;
+    width: 1.2rem;
+    height: 1.2rem;
     /* padding-left: 12px; */
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .dot--1{
     background-color: black;
@@ -94,8 +99,58 @@ img{
 }
 
 .more-info-link{
-    margin-top: 10px;
+    margin-top: 1rem;
     display: block;
     text-decoration: none;
     font-size: 1.1em;
+}
+
+.tag-sale{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    transform: rotate(-45.5deg);
+    font-weight: 600;
+}
+
+
+@media screen and(max-width : 1200px){
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        background-color: red;
+    }
+}
+@media screen and(max-width : 1080px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        background-color: green;
+    }
+}
+@media screen and(max-width : 760px){
+    html{
+        font-size: 42%;
+    }
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and(max-width : 1200px){
+    html{
+        font-size: 42%;
+    }
+    body{
+        background-color: blue;
+    }
 }

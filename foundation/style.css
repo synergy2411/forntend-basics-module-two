@@ -1,0 +1,53 @@
+.header {
+  background-color: orangered;
+}
+.heading {
+  color: #fceeea;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  text-transform: uppercase;
+  background-color: #fceeea;
+}
+.account-type-options {
+}
+
+.ikit-options {
+  /* margin-top: 0.4rem; */
+  background-color: #fceeea;
+  text-transform: uppercase;
+}
+
+.ikit-option-text{
+    font-weight: bold;
+}
+
+.product-details{
+    background-color: #fceeea;
+    /* margin-top: 0.4rem; */
+    text-transform: uppercase;
+}
+
+.product-details-text, .branch-details-text, .ikit-option-text{
+    font-weight: bold;
+    background-color: orangered;
+    color: #fceeea;
+}
+
+.product-details-options{
+    background-color: #fceeea;
+    text-transform: uppercase;
+    /* margin-bottom: 0.4rem ; */
+}
+
+.branch-details{
+    background-color: #fceeea;
+    text-transform: uppercase;
+    /* margin-bottom: 0.4rem; */
+}
+.signature-details{
+    text-transform: uppercase;
+    background-color: #fceeea;
+}

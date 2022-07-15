@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- CDN -> Content Delivery Network -->
+    <link
+      href="https://unpkg.com/blueprint-css@3.1.3/dist/blueprint.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CICIC Bank</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" bp="12">
+        <h1 class="heading">type of account</h1>
+      </div>
+      <section class="type-of-account" bp="grid gap-none">
+        <div bp="12">
+          <label bp="text-center"
+            >Select Account type
+            <select>
+              <option value="husker">Current Account</option>
+              <option value="starbuck">
+                Exchange Earner's Foreign Currency Account (EEFC)
+              </option>
+              <option value="hotdog">Special Saving Account</option>
+              <option value="apollo">Others</option>
+            </select>
+          </label>
+        </div>
+
+        <div bp="12" class="ikit-options">
+          <div bp="grid gap-none" class="ikit-options">
+            <p class="ikit-option-text" bp="6">* ikit / non-ikit</p>
+            <div bp="12 12@sm">
+              <div bp="grid">
+                <div bp="4 4@sm" class="ikit-option-one">
+                  <input
+                    type="radio"
+                    id="ikit"
+                    name="ikit"
+                    class="ikit-option-first"
+                  />
+                  <label for="ikit">ikit</label>
+                </div>
+                <div bp="4 4@sm" class="ikit-option-two">
+                  <input
+                    type="radio"
+                    id="ikit"
+                    name="ikit"
+                    class="ikit-option-second"
+                  />
+                  <label for="ikit">non-ikit</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div bp="12" class="product-details">
+          <div bp="grid gap-none">
+            <p class="product-details-text" bp="6">product details@</p>
+            <label for="product-name-label" bp="12">product name</label>
+            <input type="text" bp="12" />
+          </div>
+        </div>
+        <div bp="12" class="product-details-options">
+          <div bp="grid gap-none">
+            <div bp="6">
+              <input
+                type="checkbox"
+                name="product-mab"
+                id="product-mab"
+                class="product-mab"
+              />
+              <label for="product-mab">MAB</label>
+            </div>
+            <div bp="6">
+              <input
+                type="checkbox"
+                name="product-qtb"
+                id="product-qtb"
+                class="product-qtb"
+              />
+              <label for="product-qtb">QTB</label>
+            </div>
+            <div bp="6">
+              <input
+                type="checkbox"
+                name="product-others"
+                id="product-others"
+                class="product-others"
+              />
+              <label for="product-others">Others:__________</label>
+            </div>
+            <div bp="6">
+              <input
+                type="checkbox"
+                name="product-value"
+                id="product-value"
+                class="product-value"
+              />
+              <label for="product-value">Value:__________</label>
+            </div>
+          </div>
+        </div>
+        <div bp="12" class="branch-details">
+          <div bp="grid gap-none">
+            <p bp="6" class="branch-details-text">branch details@</p>
+            <div bp="12">
+              <label for="branch-name">Branch</label>
+              <input type="text" class="branch-name" id="branch-name" />
+            </div>
+            <div bp="12">
+              <label for="branch-code">Branch Code :</label>
+              <input type="number" name="branch-code" id="branch-code" />
+            </div>
+          </div>
+        </div>
+        <div bp="12" class="signature-details">
+          <label for="signature">Signature:</label>
+          <textarea
+            name="signature"
+            id="signature"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button
+          class="button expanded alert"
+          style="background-color: orangered"
+          bp="12"
+        >
+          NEXT
+        </button>
+      </section>
+
+      <section class="applicant-details" bp="grid"></section>
+      <section class="communication-address" bp="grid"></section>
+      <section class="constitution" bp="grid"></section>
+      <section class="profile-information" bp="grid"></section>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Compressed JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
